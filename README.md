@@ -4,6 +4,9 @@
 
 - pip install -r requirements.txt
 
+- teste ![mestrado-study design](https://github.com/orestesmkb/transfer_learning_replication_package/assets/56333638/b47ec914-b374-4bac-9812-5843738c54ae)
+
+
 ## main.py script:
 In this repository the main file opens a "project_patches.csv", with the following header "project,commit,file_path,patch", 
 and compares its data with a local PostgreSQL database. It checks if the file path from the csv is contained within the database, 
