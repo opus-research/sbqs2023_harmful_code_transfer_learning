@@ -4,7 +4,8 @@
 
 - pip install -r requirements.txt
 
-- teste ![mestrado-study design](https://github.com/orestesmkb/transfer_learning_replication_package/assets/56333638/b47ec914-b374-4bac-9812-5843738c54ae)
+## Study Design:
+![mestrado-study design](https://github.com/orestesmkb/transfer_learning_replication_package/assets/56333638/b47ec914-b374-4bac-9812-5843738c54ae)
 
 
 ## main.py script:
