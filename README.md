@@ -20,7 +20,7 @@ and compares its data with a local PostgreSQL database. It checks if the file pa
 if so it verifies if there are any smells in the code and saves a jsonb to the database, then it checks if the line number 
 from that class and its methods are contained in the hunk intervals from the csv patch, marking it in the database as a bug fix.
 
-## get_tokens_csv.py script:
+##  get_tokens_csv.py script:
 This script generates temporary files, based on a csv file, to generate tokens from the code text, it requires [tokenizer](https://github.com/moabson/tokenizer) to run.
 
 ## make_tokenizer_csv.py script:
