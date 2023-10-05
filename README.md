@@ -21,7 +21,7 @@ if so it verifies if there are any smells in the code and saves a jsonb to the d
 from that class and its methods are contained in the hunk intervals from the csv patch, marking it in the database as a bug fix.
 
 ##  get_tokens_csv.py script:
-This script generates temporary files, based on a csv file, to generate tokens from the code text, it requires [tokenizer](https://github.com/moabson/tokenizer) to run.
+This script generates temporary files, based on a csv file, to generate tokens from the code text, it requires [tokenizer](https://github.com/dspinellis/tokenizer) to run.
 
 ## make_tokenizer_csv.py script:
 This script will get all relevant data from the PostgreSQL database and save it in a csv file. This was necessary to run the
